@@ -34,23 +34,23 @@ _(If the challenge is to update/extend an existing architecture/system, attach t
 
 
 
-1. Introduction
+1. **Introduction**
 
-2. Architectural Representation
+2. **Architectural Representation**
 
-   2.1 Use Case View
+   2.1 **Use Case View**
 
-   2.2 Logical View
+   2.2 **Logical View**
    
-   2.3 Process View 
+   2.3 **Process View** 
 
-2.4 Deployment View
+   2.4 **Deployment View**
 
-3. Size and Performance
+3. **Size and Performance**
 
-4. Quality
+4. **Quality**
 
-5. Security Considerations
+5. **Security Considerations**
 
 
 Please refer to the [document template](https://docs.google.com/document/d/1GTi0EmMUffm-wzdcMYhCOtr-zlb7z2t0sdqc60Cg3Ig/edit?usp=sharing) for more details
