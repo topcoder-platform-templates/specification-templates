@@ -1,0 +1,66 @@
+# TOPCODER - ARCHITECTURE CHALLENGE TEMPLATE 
+
+_HOW TO USE THIS TEMPLATE:_
+
+
+
+1. _The blue text is meant to be instructional guidance for each section._
+2. _Fill out each section with clear instructions. Be specific. The existing text is an example of what should be in the section.  Do not simply copy this.  Adjust it to fit your specific requirements._
+3. _Delete the blue instructions._
+
+**CHALLENGE OBJECTIVES**
+
+_(Never more than 3 bullet points. The objective should be clear and concise. The goal is to have members understand what we want as the deliverable for this challenge.)_
+
+
+
+*   Create a document to provide a comprehensive architectural overview of the system.
+*   The document may include Use Case View, Logical View, Data View, Deployment View etc.
+*   In each view, there should be some diagrams to illustrate the details.
+
+**PROJECT BACKGROUND**
+
+_(Never more than 3 bullet points. The background should be clear and concise.)_
+
+
+
+*   The purpose of this project is to develop a mobile application that will be used by physicians to track order status and view order results for patients they have under their care. 
+*   Through the order results, the application will also assist physicians in determining which antibiotics to prescribe to patients.
+*   The application will be used in doctors offices and hospitals across the US.
+
+**TECHNOLOGY STACK**
+
+(Please specify the technology stack for this application)
+
+The following technology stack might be used in the application.
+
+**DOCUMENT REQUIREMENTS**
+
+_(The document must include the following sections)_
+
+_(if the challenge is to update/extend an existing architecture/system, attach the original documents (if exists) as the basis)_
+
+**1. Introduction**
+
+**2. Architectural Representation**
+
+**2.1 Use Case View**
+
+**2.2 Logical View**
+
+**2.3 Process View **
+
+**2.4 Deployment View **
+
+**3. Size and Performance**
+
+**4. Quality**
+
+Please refer to the [document template](https://docs.google.com/document/d/1GTi0EmMUffm-wzdcMYhCOtr-zlb7z2t0sdqc60Cg3Ig/edit?usp=sharing) for more details
+
+**FINAL DELIVERABLES**
+
+
+
+*   The architecture document 
+*   The source of all the diagrams included in the document. So that we can easily edit these diagrams further if necessary. (If the client has no specific preferences, we recommend using [https://www.lucidchart.com/](https://www.lucidchart.com/)** **as the modelling tool.)
