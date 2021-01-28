@@ -6,7 +6,7 @@ _HOW TO USE THIS TEMPLATE:_
 
 -------
 
-**Challenge Overview**	
+### Challenge Overview	
 
 _(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
 
@@ -26,7 +26,7 @@ Example:
 - Redux
 - CSS/SCSS
 
-**Project background**	
+### Project Background	
 
 - Prior to this challenge what type of challenges were used** to create the design or POC or design   guidelines.
 - After this challenge, what’s the next process in development (if known)**
@@ -34,7 +34,7 @@ Example:
 _(For the sections below it is preferred to use the exact headings. The idea is to use the these heading for keeping UI-challenge getting started documentation & scorecard documentation in sync with this template documentation.)_
 
 
-**General requirements**
+### General Requirements
 
 (This section should describe some of the common challenge goals listed below)
 
@@ -77,7 +77,7 @@ Some challenges may require to test the application using certain tools. Like li
 (Note_: Do not always force these tools, using them may increase the challenge complexity and development time.)_
 
 
-**Platform requirements**
+### Platform Requirements
 
 Example:
 
@@ -86,7 +86,7 @@ Example:
 - Mobile: Latest Android and Safari Browsers.
 
 
-**Individual requirements**
+### Individual Requirements
 
 For each individual requirement, we want to cover these in enough detail to not only implement the requirement but also **review** the change.  You need to provide more detail than you would think necessary because reviewers need to evaluate all submissions against these requirements.
 
@@ -103,7 +103,7 @@ For instance:
 - &lt;Describe the functional requirement, layout requirements and other briefings.>
 
 
-**Deployment & maintainability	**
+### Deployment & Maintainability
 
 ( Describe the details to be listed in README file that will help reviewers and other developers to run, test and understand the code)
 
@@ -114,7 +114,7 @@ Example:
 - Provide the environment details required to deploy & run the application on heroku.
 - For this challenge provide a video to preview your application.
 
-**HTML requirements**
+### HTML Requirements
 
 
 - HTML should be valid HTML5 compliant.
@@ -127,7 +127,7 @@ Example:
 - Validate your code- reviewers may accept minor validation errors, but please comment your reason for any validation errors. Use the validators listed in the scorecard.
 
 
-**CSS requirements**
+### CSS requirements
 
 - Use CSS3 Media Queries to load different styles for each page. Do not build different page for different device/layout.
 - You may use SCSS in the project.
@@ -141,13 +141,12 @@ Example:
 - Only use table tags for tables of data/information and not for page layout.
 
 
-**JS requirements**
+### JS requirements
 
 All JavaScript must not have a copyright by a third party. You are encouraged to use your own scripts, or scripts  that are free, publicly available and do not have copyright statements or author recognition requirements anywhere in the code.
 
 
-**Framework specific requirements**
-
+### Framework Specific Requirements
 
 - Code should follow the best practices of [ECMAScript 5](https://en.wikipedia.org/wiki/ECMAScript) (ES5) or above.
 - Split the code into Reusable components.
@@ -162,14 +161,14 @@ All JavaScript must not have a copyright by a third party. You are encouraged to
 - If the official framework documentation says specific way or approach to do something, and you did differently with no solid reason, that's valid for scoring down.
 - For any other framework, follow the guidelines listed in _“Application Development Requirements” _section or else ask in challenge forums.
 
-**Licenses & Attribution**
+### Licenses & Attribution
 
 
   - Third-party assets used to build your item must be properly licensed or free for commercial use. MIT, some modified BSD, Apache 2 licenses are ok. If a library is not commercial friendly you will need to get our approval first.
   - Sufficient information regarding third-party assets must be present in your documentation. This includes the author, license info and a direct link to the asset online.
 
 
-**Deliverables**
+### Deliverables
 
 (List the challenge deliverables)
 
