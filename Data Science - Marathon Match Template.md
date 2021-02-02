@@ -1,6 +1,7 @@
 ### Challenge Overview
 
 _(EXAMPLE OVERVIEW)_
+
 Welcome to the **pDEM - Paleo-Digital Elevation Model** Marathon Match! The problem we approach today is the reconstruction of prehistoric Earth terrain (also including ocean floors) from a sparse set of geological observations that indicate the elevation and slope of terrain at certain points in geological time. These observations originate, for example, from drilling a hole in the ground, and analysing the composition of extracted material at different depths. Today creation and updates of such elevation models is a labor-intensive largely manual process performed by highly-skilled researchers, our goal is to come up with algorithms to do the same in an accurate, fast, and fully automated manner.
 
 
@@ -18,54 +19,13 @@ The training dataset is provided in the match forum, accessible after the regist
     *   **Elev_min** and **Elev_max** are the estimated lower and maximum bounds on the paleo-terrain level, both in meters. At _X_, _Y_ coordinates where either of them is given your output terrain level estimation _Zxy_ must satisfy _Zxy > ElevMinxy_ and _Zxy &lt; ElevMaxxy_.
     *   **Slope_azimuth** is the estimated direction of paleo-terrain slope, given as the angle between the direction to north, and the direction of positive terrain level gradient, measured in degrees in the clockwise direction. At _X_, _Y_ coordinates where the slope azimuth is provided, the azimuth calculated from your output terrain level must match with it within 5 degrees. \
 
+_(SAMPLES IMAGE)_
 ![SAMPLE IMAGE](https://www.topcoder.com/wp-content/themes/tc3-marketing/img/rawpixel-03.png)
-
 
  \
 **_Fig. 1. Geometry of the problem. X and Y axes are directed to the East and North; the points are sampled at the regular grid with equal steps dx = dy = 0.5°. The Z axis (terrain elevation) is directed upward (to the viewer). At a selected point (X, Y) the slope gradient g is the vector with coordinates _**
 
-
-![SAMPLE IMAGE](https://www.topcoder.com/wp-content/themes/tc3-marketing/img/rawpixel-03.png)
-_ (i.e. the standard definition of gradient for a function of two variables). To estimate derivatives at (x, y) point of the grid we use two points difference: _
-
-
-
-![SAMPLE IMAGE](https://www.topcoder.com/wp-content/themes/tc3-marketing/img/rawpixel-03.png)
-, 
-
-
-![SAMPLE IMAGE](https://www.topcoder.com/wp-content/themes/tc3-marketing/img/rawpixel-03.png)
-
-_. The slope azimuth **a** is defined as the angle between North direction and the slope gradient, measured clockwise._
-    *   It is a good place to mention that a correctly reconstructed terrane level should be continuous and smooth (_i.e._ there must be no sudden jumps of height, nor of its first derivatives, between the neighbouring grid points). See further details in the scoring section.
-*   **L_Class** specifies the type of [Earth crust](https://en.wikipedia.org/wiki/Crust_(geology)) at each point: 0 = oceanic; 1 = continental; 2 = oceanic island arcs. \
-
-
-
-
-![SAMPLE IMAGE](https://www.topcoder.com/wp-content/themes/tc3-marketing/img/rawpixel-03.png)
-
-
-*   **CA_Values** is the known age of crust in millions of years, which may correlate with topography.
-*   **PB_Class** provides line features that delineate different types of plate-tectonic boundaries. \
-
-
-
-![SAMPLE IMAGE](https://www.topcoder.com/wp-content/themes/tc3-marketing/img/rawpixel-03.png)
-
-
-
-
-
-![SAMPLE IMAGE](https://www.topcoder.com/wp-content/themes/tc3-marketing/img/rawpixel-03.png)
-
-
-*   **GC_Class** specifies rock forming environments, where known: 0 - basaltic volcanism; 1 - intermediate-acidic volcanism; 2 - other.
-*   **Trend Depth** and **Trend Error** are empirically estimated paleo-terrain levels and its error, both in meters. It is known for most of the Earth surface, and in theory it is the same terrain level you aim to reconstruct; the catch is the accuracy of this empirical estimation is very poor, compared to the values originating from geologic observations (see **Elev_value** above). Thus, all known **Trend Depth** values are provided as input, and you are allowed to use them as you see fit, but your goal is to reconstruct the terrain level with a higher accuracy matching **Elev_value** and related values.
-
-As usual in Topcoder Marathon Matches, we rely on different datasets for training (provided to competitors), and for provisional (during the competition) and final scoring at Topcoder server. However in this case we split data in a special way, explained in the following table. As you will see, the X,Y grid, and some data are provided for the entire Earth surface in every dataset, some only for selected geographic regions. Your solution in every case should output the reconstructed terrain level for the entire Earth surface, but it will be scored based on different areas.
-
-![SAMPLE IMAGE](https://www.topcoder.com/wp-content/themes/tc3-marketing/img/rawpixel-03.png)
+_(BE THOROUGH AND SPECIFIC HERE)_
 
 
 
@@ -91,7 +51,6 @@ The entry point script of your solution, `test.sh`, will get two arguments: the 
 The outputs of your submissions will be scored in three steps. A failure on the first or second step means the zero overall score.
 
 
-
 1. **Fail or Pass**.
     1. A sanity check that your output contains exactly the same points as the input; _i.e._ the X, and Y columns in your output must match exactly the X, and Y columns from input.
     2. A sanity check that in each row (for each X, and Y) you have output a valid **DEM** number - the estimated terrain level elevation in meters.
@@ -99,26 +58,11 @@ The outputs of your submissions will be scored in three steps. A failure on the 
 2. **Fail or Pass**. We check that your solution satisfies the hard conditions on **Elev_value**, **Elev_error**, **Elev_min**, **Elev_max**, **Slope_azimuth** (explained in the Dataset Details section above), at all points where these values were provided in the input.
 3. **Numeric Score.** Assuming your solution has passed the checks (1) and (2), we calculate its score based on RMS deviation of your output **DEM** from the ground-truth **DEM** within the geographic area used for scoring. \
  \
-Mathematically, we want to calculate RMS as (in the formula that is a spherical integral over some area of the Earth’s surface): \
+
+_(DESCRIBE HOW THE SCORING FORMULA WORKS HERE)_
 
 
-
-![SAMPLE IMAGE](https://www.topcoder.com/wp-content/themes/tc3-marketing/img/rawpixel-03.png)
-
- \
-as in our case DEM values are sampled at a regular rectangular grid in the geographic projection, we approximate the integral in this formula by the following sum over X,Y points in the area of interest, thus (N is the total number of points in our grid): \
-
-![SAMPLE IMAGE](https://www.topcoder.com/wp-content/themes/tc3-marketing/img/rawpixel-03.png)
-
- \
-We map the resulting RMS value to the leaderboard score as: 
-
-![SAMPLE IMAGE](https://www.topcoder.com/wp-content/themes/tc3-marketing/img/rawpixel-03.png)
-
-, where C = 500 is just a normalization constant, not affecting the relative ranking of solutions at the leaderboard.
-
-The dockerized version of scorer is provided in the challenge forum. It can be built and executed with the following commands (assuming you keep you solution output, and the ground truth in the same `workdir` folder on your host machine):
-
+The dockerized version of scorer is provided in the challenge forum. It can be built and executed with the following commands (assuming you keep you solution output, and the ground truth in the same workdir folder on your host machine):
 
 ```
 docker build -t scorer .
