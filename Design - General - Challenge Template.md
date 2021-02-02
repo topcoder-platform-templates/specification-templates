@@ -26,39 +26,12 @@ _(Please copy this section from the project input form)_
 
 Please make sure your design incorporates this workflow.
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
 
-
-<table>
-  <tr>
-   <td><strong>Workflow Step #</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Step 1
-   </td>
-   <td>The user launches the mobile app
-   </td>
-  </tr>
-  <tr>
-   <td>Step 2
-   </td>
-   <td>The user (without any log in) enters their basic information (Age, current salary, working years, Accumulated Saving amount in AFP, Gender… and if the user has worked before 1998 (Public Pension System - Legacy) the application asks for the number of years worked and the average salary earned in 1996 in order to be able to estimate the amount that should be transferred from the Public System to the AFP Pension System.
-   </td>
-  </tr>
-  <tr>
-   <td>Step 3
-   </td>
-   <td>The application generates the base simulation
-   </td>
-  </tr>
-</table>
+| Workflow Step #     | Description                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Step 1              | The user launches the mobile app                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Step 2              | The user (without any log in) enters their basic information (Age, current salary, working years, Accumulated Saving amount in AFP, Gender… and if the user has worked before 1998 (Public Pension System - Legacy) the application asks for the number of years worked and the average salary earned in 1996 in order to be able to estimate the amount that should be transferred from the Public System to the AFP Pension System.     |
+| Step 3              | The application generates the base simulation                                                                                                                                                                                                                                                                                                                                                                                             |
 
 
 
@@ -69,43 +42,11 @@ _(Please copy this section from the project input form.)_
 Please make sure your design supports the following roles.
 
 
-<table>
-  <tr>
-   <td><strong>User/Role</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
-   <td><strong>Required</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Standard User
-   </td>
-   <td>-- Public Access for customers (Without Login) to generate basic estimation based on data input from the customer.
-<p>
--- Private Access for customer (With Login) to generate estimation based on the own customer’s information retrieved from the CONFIA backend systems and data input from the customer.
-   </td>
-   <td>X
-   </td>
-  </tr>
-  <tr>
-   <td>Admin User
-   </td>
-   <td>Private Access for administrators (With Login) to make changes to the parameters of the application.
-   </td>
-   <td>X
-   </td>
-  </tr>
-  <tr>
-   <td>Super Admin User
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
+| User/Role            | Description                                                                                                                                                                                                                                                                                                     | Required     |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| Standard User        | -- Public Access for customers (Without Login) to generate basic estimation based on data input from the customer.   -- Private Access for customer (With Login) to generate estimation based on the own customer’s information retrieved from the CONFIA backend systems and data input from the customer.     | X            |
+| Admin User           | Private Access for administrators (With Login) to make changes to the parameters of the application.                                                                                                                                                                                                            | X            |
+| Super Admin User     |                                                                                                                                                                                                                                                                                                                 |              |
 
 
 ### Screens/Features
@@ -115,310 +56,37 @@ Please make sure your design supports the following roles.
 Please make sure your design includes the following screens:
 
 
-<table>
-  <tr>
-   <td><strong>Feature</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
-   <td><strong>Required</strong>
-   </td>
-   <td><strong>User Role</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Enterprise Login
-   </td>
-   <td>App must integrate with an existing login mechanism. Typically this involves integration with an existing authorization/authentication mechanism. 
-   </td>
-   <td>
-   </td>
-   <td>All users
-   </td>
-  </tr>
-  <tr>
-   <td>Email Login
-   </td>
-   <td>Allow users to sign in using an email address/password. Select this option if you have an existing authentication/authorization service. 
-   </td>
-   <td>
-   </td>
-   <td>Standard User Only
-   </td>
-  </tr>
-  <tr>
-   <td>Social Login
-   </td>
-   <td>Allow users to register and login using third-party services such as Facebook, Twitter, and Google. 
-   </td>
-   <td>
-   </td>
-   <td>Admin User Only
-   </td>
-  </tr>
-  <tr>
-   <td>Registration
-   </td>
-   <td>Allow users to register and login using their email address and a password. We would build a new login from scratch. Users can also change their password or recover a forgotten one.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Invitations
-   </td>
-   <td>Allow users to invite others to use your app via email. This functionality is especially useful if you are building a social application or provide incentives for users to invite their friends. 
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Introductions
-   </td>
-   <td>Present your app and inform users of core functionality using a series of introductory screens before they sign up.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Onboarding
-   </td>
-   <td>Virtually walk your users through your application. This functionality is especially useful if you need new users to set up an account or express preferences after they sign up.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Search
-   </td>
-   <td>Provide the ability to search your app for specific content, such as products, members, or locations. Please specify below if you also would like autocomplete--suggesting appropriate search terms as a user starts typing.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Location Based Services
-   </td>
-   <td>App must support the identification of the users geographic location for location based features.  Ex. show store locations on a map or illustrating the progress of a delivery.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Camera (Audio & Video)
-   </td>
-   <td>Add this feature if your app will require using the camera to capture audio or video. 
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>File Upload
-   </td>
-   <td>Allow users to upload photos or other files. 
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Notifications
-   </td>
-   <td>Take advantage of notifications; for example, remind users to do certain tasks or update them on new content. 
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Dashboard
-   </td>
-   <td>App must have a central dashboard where users can access functionality
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Tagging
-   </td>
-   <td>Allow users to tag products, people or content; for example, in order to classify and easily retrieve notes. 
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Account Settings
-   </td>
-   <td>Allow your users to adjust settings or specify preferences, such as communication frequency. 
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Help/FAQs
-   </td>
-   <td>Include a section dedicated to FAQ or Help content.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Marketplace
-   </td>
-   <td>Allow users to buy, sell, or rent products or services. 
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Ratings & Reviews
-   </td>
-   <td>Let users rate or review people, products, or services. 
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Payments
-   </td>
-   <td>Allow users to pay in some way; for example, using credit cards, PayPal, or Bitcoin.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Shopping Cart
-   </td>
-   <td>Allow users to save items before purchasing.  Please specify your desired functionality below.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Product Listing
-   </td>
-   <td>Add this feature to shows lists of product or services, with individual detail pages for each one.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Activity Feed
-   </td>
-   <td>Show your users an activity feed of some kind, as they’re used to seeing on Facebook and Twitter, for example. 
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Profiles
-   </td>
-   <td>Add this feature if your app requires users to have a profile, including the ability to edit it.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Messaging
-   </td>
-   <td>Allow direct communication between two or more users. 
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Admin Tool 
-   </td>
-   <td>App must have an administrative tool or panel to enable direct management of users, content and the application.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Social Media Integration
-   </td>
-   <td>App must integrate with social media providers (Facebook, Instagram, Twitter, Google+, etc)
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Reporting
-   </td>
-   <td>App must have the ability to report/export data
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Contact Us
-   </td>
-   <td>App must have the ability to allow users to contact an administrator/send feedback to administrators.
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>3D Touch
-   </td>
-   <td>If this is an iOS App -- should the designers make use of <a href="https://developer.apple.com/ios/human-interface-guidelines/user-interaction/3d-touch/">3D Touch</a>?
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-
+| Feature     | Description     | Required     | User Role     |
+|-|-|-|-|
+| Enterprise Login     | App must integrate with an existing login mechanism. Typically this involves integration with an existing authorization/authentication mechanism.      |      | All users     |
+| Email Login     | Allow users to sign in using an email address/password. Select this option if you have an existing authentication/authorization service.      |      | Standard User Only     |
+| Social Login     | Allow users to register and login using third-party services such as Facebook, Twitter, and Google.      |      | Admin User Only     |
+| Registration     | Allow users to register and login using their email address and a password. We would build a new login from scratch. Users can also change their password or recover a forgotten one.     |      |      |
+| Invitations     | Allow users to invite others to use your app via email. This functionality is especially useful if you are building a social application or provide incentives for users to invite their friends.      |      |      |
+| Introductions     | Present your app and inform users of core functionality using a series of introductory screens before they sign up.     |      |      |
+| Onboarding     | Virtually walk your users through your application. This functionality is especially useful if you need new users to set up an account or express preferences after they sign up.     |      |      |
+| Search     | Provide the ability to search your app for specific content, such as products, members, or locations. Please specify below if you also would like autocomplete--suggesting appropriate search terms as a user starts typing.     |      |      |
+| Location Based Services     | App must support the identification of the users geographic location for location based features.  Ex. show store locations on a map or illustrating the progress of a delivery.     |      |      |
+| Camera (Audio & Video)     | Add this feature if your app will require using the camera to capture audio or video.      |      |      |
+| File Upload     | Allow users to upload photos or other files.      |      |      |
+| Notifications     | Take advantage of notifications; for example, remind users to do certain tasks or update them on new content.      |      |      |
+| Dashboard     | App must have a central dashboard where users can access functionality     |      |      |
+| Tagging     | Allow users to tag products, people or content; for example, in order to classify and easily retrieve notes.      |      |      |
+| Account Settings     | Allow your users to adjust settings or specify preferences, such as communication frequency.      |      |      |
+| Help/FAQs     | Include a section dedicated to FAQ or Help content.     |      |      |
+| Marketplace     | Allow users to buy, sell, or rent products or services.      |      |      |
+| Ratings & Reviews     | Let users rate or review people, products, or services.      |      |      |
+| Payments     | Allow users to pay in some way; for example, using credit cards, PayPal, or Bitcoin.     |      |      |
+| Shopping Cart     | Allow users to save items before purchasing.  Please specify your desired functionality below.     |      |      |
+| Product Listing     | Add this feature to shows lists of product or services, with individual detail pages for each one.     |      |      |
+| Activity Feed     | Show your users an activity feed of some kind, as they’re used to seeing on Facebook and Twitter, for example.      |      |      |
+| Profiles     | Add this feature if your app requires users to have a profile, including the ability to edit it.     |      |      |
+| Messaging     | Allow direct communication between two or more users.      |      |      |
+| Admin Tool      | App must have an administrative tool or panel to enable direct management of users, content and the application.     |      |      |
+| Social Media Integration     | App must integrate with social media providers (Facebook, Instagram, Twitter, Google+, etc)     |      |      |
+| Reporting     | App must have the ability to report/export data     |      |      |
+| Contact Us     | App must have the ability to allow users to contact an administrator/send feedback to administrators.     |      |      |
+| 3D Touch     | If this is an iOS App -- should the designers make use of 3D Touch?     |      |      |
 
 ### Form Factors
 
