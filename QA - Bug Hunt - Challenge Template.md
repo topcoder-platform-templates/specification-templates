@@ -4,8 +4,9 @@
 *   _Please remove the green highlighted section after filling all the details_
 *   _If there are multiple prizes please set them in OR._
 *   _All the bug hunts have **24hr notification period** without posting the testing data. For that period you can post a notification like below._
+*   _Remove this section before posting the challenge._
 
-_This challenge will have 24hr for the registration (during this phase no one will see details) and 2 days for bug hunting. Details will be posted on Aug 04, 09:01 EST_
+_This challenge will have 24hr for the registration (during this phase no one will see details) and 2 days for bug hunting. Details will be posted on [[Submission Start Time]] EST_
 
 ### Challenge Objectives
 
@@ -49,7 +50,7 @@ _(Please specify the additional limitations and concerns of this test cycle here
 
 
 
-*   **Test URL:** [http://www.optus.com.au](http://www.optus.com.au)
+*   **Test URL:** [http://www.topcoder.com](https://somesitetotesst.topcoder.com)
 *   **Accepted types of bugs:** Functional, UI, UX, Usability, Load Test, Web Accessibility Testing
 *   **Subdomains**: Pages to be tested are only that are within the main domain (eg: optus.com.au). Pages apart from the main domain will be rejected. Subdomains are out of scope
 *   **Primary target device(s)**: Desktop, Mobiles and tablets
@@ -131,7 +132,12 @@ P4 - Minor		: This is an annoyance, but won’t prevent the app from running nor
 
 P5 - Enhancement	:  Something noticed by testers that should be fixed, but isn’t considered a bug.
 
-The additional prizes will be **up to** $250 for 2nd position, $200 for 3rd position and $150 for 4th position. No prizes will be awarded beyond the 4th position for any bugs. / Or Submitters that do not take 1st, 2nd, 3rd or 4th place will be paid each non-duplicate and verified issue up to a maximum of the 4th place prize using the prize guideline above. 
+The additional prizes will be **up to** $250 for 2nd position, $200 for 3rd position and $150 for 4th position. 
+
+(CHOOSE ONE:) 
+No prizes will be awarded beyond the 4th position for any bugs. 
+(OR)
+Submitters that do not take 1st, 2nd, 3rd or 4th place will be paid each non-duplicate and verified issue up to a maximum of the 4th place prize using the prize guideline above. 
 
 ---------------------------------------------------------------- OR ---------------------------------------------------------------------
 
