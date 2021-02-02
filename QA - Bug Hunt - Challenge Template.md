@@ -1,8 +1,7 @@
 
-*   _Please Apply ‘QA’ tag from the Direct when you are running a Bug Hunt Challenge._
-*   _Please check the Orange highlighted sections carefully and adjust accordingly._
-*   _Please remove the green highlighted section after filling all the details_
-*   _If there are multiple prizes please set them in OR._
+*   _Please apply the ‘QA’ tag when you are creating a Bug Hunt Challenge._
+*   _Please check the sections in parethesis and adjust accordingly. These sections contain guidance and options._
+*   _Please remove the sections in parethesis before activating the challenge._
 *   _All the bug hunts have **24hr notification period** without posting the testing data. For that period you can post a notification like below._
 *   _Remove this section before posting the challenge._
 
@@ -82,7 +81,7 @@ For each report of a limitation or bug, we need the following information:
 6. Attach detailed platform, device model (iPhone, iPad, Laptop, Desktop), operating system (Window 7 64 bit, iOS 11, Android 7.0 etc.), Frequency in the issue detail.  The high-level labels aren’t sufficient for issue replication and diagnosis.  
 7. If it is a comparison, you must provide the URL and Screenshot/video of that location.
 
-### IMPORTANT NOTE:
+**IMPORTANT NOTE:**
 
 **Missing or Incorrect details to ANY of the above fields will mark the bug report as INCOMPLETE. **
 
@@ -134,9 +133,9 @@ P5 - Enhancement	:  Something noticed by testers that should be fixed, but isn�
 
 The additional prizes will be **up to** $250 for 2nd position, $200 for 3rd position and $150 for 4th position. 
 
-(CHOOSE ONE:) 
+_(CHOOSE ONE:)_ 
 No prizes will be awarded beyond the 4th position for any bugs. 
-(OR)
+_(OR)_
 Submitters that do not take 1st, 2nd, 3rd or 4th place will be paid each non-duplicate and verified issue up to a maximum of the 4th place prize using the prize guideline above. 
 
 ---------------------------------------------------------------- OR ---------------------------------------------------------------------
