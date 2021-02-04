@@ -1,3 +1,11 @@
+_HOW TO USE THIS TEMPLATE:_
+
+1. _The text enclosed in ( ) is meant to be instructional guidance for each section._
+1. _Fill out each section with clear instructions. Be specific. The existing text is an example of what should be in the section.  Do not simply copy this.  Adjust it to fit your specific requirements._
+1. _Remove any sections you decide not to use._
+1. _Delete these instructions._
+--------------------
+
 ### Challenge Objectives
 
 _(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
