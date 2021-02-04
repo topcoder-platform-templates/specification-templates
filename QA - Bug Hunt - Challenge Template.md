@@ -1,11 +1,16 @@
 
-*   _Please apply the ‘QA’ tag when you are creating a Bug Hunt Challenge._
-*   _Please check the sections in parethesis and adjust accordingly. These sections contain guidance and options._
-*   _Please remove the sections in parethesis before activating the challenge._
-*   _All the bug hunts have **24hr notification period** without posting the testing data. For that period you can post a notification like below._
-*   _Remove this section before posting the challenge._
+_HOW TO USE THIS TEMPLATE:_
 
-_This challenge will have 24hr for the registration (during this phase no one will see details) and 2 days for bug hunting. Details will be posted on [[Submission Start Time]] EST_
+1. _The text enclosed in ( ) is meant to be instructional guidance for each section._
+1. _Fill out each section with clear instructions. Be specific. The existing text is an example of what should be in the section.  Do not simply copy this.  Adjust it to fit your specific requirements._
+1. _Remove any sections you decide not to use._
+1. _Don't forget to set the the ‘QA’ tag when you are creating a Bug Hunt Challenge._
+1. _All the bug hunts have a **24hr notification period** without posting the testing data. For that period you can post a notification like below._
+1. _Delete these instructions._
+--------------------
+
+
+_This challenge will have 24hr for registration (during this phase no one will see details) and 2 days for bug hunting. Details will be posted on [[Submission Start Time]] EST_
 
 ### Challenge Objectives
 
