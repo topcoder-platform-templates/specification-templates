@@ -29,8 +29,6 @@ _(Never more than 3 bullet points.  The goal of the background is to cover what 
 
 _(Please specify the technology stack for this code challenge, not the project itself.)_
 
-
-
 *   **&lt;Programming language(s) / frameworks to be used>  _Note if there are multiple languages being used, make sure to have a review of the scope.  Challenges that cross multiple environments or programming languages have a much larger chance of failure.  This is where you would list things like NodeJS, Swift, Java / Android, C#, Angular, etc..._**
 *   **&lt;Deployment environment requirements>  _As with the programming languages, if developers are required to test on multiple OS’s, like Windows and Mac, it will make it much harder to find developers for your challenge.  Consider splitting each platform into a separate, smaller challenge.  Also list here if you are using a cloud host like AWS or Heroku for your web application.  Some cloud hosts require a credit card to open an account, even if it isn’t billed, but that can cause problems for competitors._**
 *   **&lt;Other key dependencies>  _List the big dependencies here.  For instance, if you are making a server app, list the database to be used and any large packages like Kafka or Redis that will be required._**
@@ -40,7 +38,7 @@ _(Please specify the technology stack for this code challenge, not the project i
 
 Most challenges will be extensions / additions / changes to existing code, not a fresh project.  If you are running a code challenge to change existing code you need to clearly define where the code is, what branch to use, and how to gain access to the code.
 
-A public Github repository is easiest, but Ragnar can be used to give access to competitors.
+A public Github repository is easiest, but [Topcoder X](https://x.topcoder.com/) can be used to give access to competitors.
 
 **Make sure the existing code has up-to-date documentation!  **If your existing code isn’t well documented and is hard to deploy, it will frustrate competitors and will lessen the likelihood that you’ll get a submission.  It will also mean a lot of extra questions to answer in the challenge forum.
 
