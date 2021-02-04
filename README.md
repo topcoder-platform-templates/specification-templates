@@ -1,6 +1,6 @@
 ## Overview
 
-This repository holds templates for Topcoder challenge specifications. These are intended be used when creating various types of challenges on the Topcoder Platform.  They pull from learned best practices and are aimed at keeping challenges clear and constistent for participants.
+This repository holds templates for Topcoder challenge specifications. These are intended be used when creating various types of challenges on the Topcoder Platform.  They pull from learned best practices and are aimed at keeping challenges clear and constistent for participants. It is strongly recommended that you start from one of these templates when drafting a challenge.
 
 
 ## Usage
@@ -23,7 +23,6 @@ Contributions are always welcome and **greatly appreciated**.
 5. Open a Pull Request
 
 
-<!-- CONTACT -->
 ## Contact
 
 The Topcoder Platform Team - support@topcoder.com
