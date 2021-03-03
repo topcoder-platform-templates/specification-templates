@@ -28,11 +28,11 @@ The following technology stack might be used in the application.
 
 **SUBMISSION REQUIREMENTS**
 
-_(The document must include the following sections. The specific formats for these documents and diagrams can be found in the [submission template](https://docs.google.com/document/d/1GTi0EmMUffm-wzdcMYhCOtr-zlb7z2t0sdqc60Cg3Ig/edit?usp=sharing), which should be shared as a challenge attachment.)_
+_(The document must include the following sections. The specific formats for these documents and diagrams can be found in the [submission template](https://github.com/topcoder-platform-templates/submission-templates/blob/master/Architecture%20Submission%20Template%20-%20General.md), which should be shared as a challenge attachment.)_
 
 _(If the challenge is to update/extend an existing architecture/system, attach the original documents (if they exists) as the basis.)_
 
-Your submission must follow the [submission template](https://docs.google.com/document/d/1GTi0EmMUffm-wzdcMYhCOtr-zlb7z2t0sdqc60Cg3Ig/edit?usp=sharing) unless otherwise specified. Create a copy of the template and then upload your document along with the following supporting deliverables by clicking the "Submit" button above.
+Your submission must follow the [submission template](https://github.com/topcoder-platform-templates/submission-templates/blob/master/Architecture%20Submission%20Template%20-%20General.md) unless otherwise specified. Create a copy of the template and then upload your document along with the following supporting deliverables by clicking the "Submit" button above.
 
 1. **Introduction**
 
