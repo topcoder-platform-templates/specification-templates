@@ -7,6 +7,9 @@ This repository holds templates for Topcoder challenge specifications. These are
 
 To use these templates, copy the raw markdown for a given template and paste it into your challenge's description text area at https://challenges.topcoder.com.
 
+There is also a neat tool you can use to contruct spec templates that are a little more customized courtesy of [grv.ashu](https://www.topcoder.com/members/grv.ashu)
+:point_right: Access this tool at https://0xf17.github.io/tc-spec-generator/
+:technologist: Contribute/PR at https://github.com/0xf17/tc-spec-generator
 
 ## Roadmap
 
